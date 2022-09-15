@@ -46,7 +46,7 @@ function onSearchCountry(e) {
                 revs.countryInfo.innerHTML = markapCountryCard;
             }
         }
-    ).cath(error => {
+    ).catch(error => {
         Notify.failure('Oops, there is no country with that name');
         revs.countryList.innerHTML = '';
         revs.countryInfo.innerHTML = '';
