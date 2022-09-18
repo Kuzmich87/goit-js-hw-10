@@ -12,9 +12,9 @@ export function renderCountryCard({
                    <h2 class="country-list-name">${name.official}</h2>
                    </li>  
                 </div>
-                <p class="country-list-capital">Capital:${capital}</p>
-                <p class="country-list-population">Population:${population}</p>
-                <p class="country-list-">Languages:${Object.values(languages)}</p>
+                <p class="country-list-capital">Capital: ${capital}</p>
+                <p class="country-list-population">Population: ${population}</p>
+                <p class="country-list-">Languages: ${Object.values(languages)}</p>
          </div>`;
 }
 
